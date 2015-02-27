@@ -40,7 +40,7 @@
     }
     
     // set this class as delegate
-    PhysicsNode.CollisionDelegate = self;
+    physicsNode.CollisionDelegate = self;
     
     _obstacles = [NSMutableArray array];
     points = 0;
